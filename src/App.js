@@ -9,6 +9,9 @@ import menus from "./components/tree-view/data";
 import QRCodeGenerator from './components/QR-code-generator';
 import LightDarkMode from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
+import ModalTest from './components/custom-model-pop/modal-test';
+import Model from './components/custom-model-pop/modal';
+import Modal from './components/custom-model-pop/modal';
 function App() {
   return (
     <div className="App">
@@ -19,7 +22,9 @@ function App() {
     {/* <TreeView menus={menus} /> */}
     {/* <QRCodeGenerator/> */}
     {/* <LightDarkMode/> */}
-    <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+    {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+    <ModalTest/>
+   
     </div>
   );
 }
