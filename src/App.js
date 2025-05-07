@@ -12,6 +12,7 @@ import ScrollIndicator from './components/scroll-indicator';
 import ModalTest from './components/custom-model-pop/modal-test';
 import Model from './components/custom-model-pop/modal';
 import Modal from './components/custom-model-pop/modal';
+import GitHubProfileFinder from './components/github-profile-finder';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,8 @@ function App() {
     {/* <QRCodeGenerator/> */}
     {/* <LightDarkMode/> */}
     {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
-    <ModalTest/>
+    {/* <ModalTest/> */}
+    <GitHubProfileFinder/>
    
     </div>
   );
