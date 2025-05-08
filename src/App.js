@@ -13,6 +13,7 @@ import ModalTest from './components/custom-model-pop/modal-test';
 import Model from './components/custom-model-pop/modal';
 import Modal from './components/custom-model-pop/modal';
 import GitHubProfileFinder from './components/github-profile-finder';
+import SearchAutoComplete from './components/search-autoComplete';
 function App() {
   return (
     <div className="App">
@@ -25,8 +26,8 @@ function App() {
     {/* <LightDarkMode/> */}
     {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
     {/* <ModalTest/> */}
-    <GitHubProfileFinder/>
-   
+    {/* <GitHubProfileFinder/> */}
+   <SearchAutoComplete/>
     </div>
   );
 }
