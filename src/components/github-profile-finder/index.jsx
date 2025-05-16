@@ -3,7 +3,7 @@ import User from "./user"
 import './styles.css'
 
 export default function GitHubProfileFinder(){
-const [userName,setUserName]=useState('sangammukherjee')
+const [userName,setUserName]=useState('tejureddy')
 const [userData,setUserData]=useState(null)
 const [loading,setLoading]=useState(true)
 async function fetchGithubUserData(){

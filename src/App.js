@@ -14,6 +14,7 @@ import Model from './components/custom-model-pop/modal';
 import Modal from './components/custom-model-pop/modal';
 import GitHubProfileFinder from './components/github-profile-finder';
 import SearchAutoComplete from './components/search-autoComplete';
+import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section';
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,8 @@ function App() {
     {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
     {/* <ModalTest/> */}
     {/* <GitHubProfileFinder/> */}
-   <SearchAutoComplete/>
+   {/* <SearchAutoComplete/> */}
+   <ScrollToSection/>
     </div>
   );
 }
