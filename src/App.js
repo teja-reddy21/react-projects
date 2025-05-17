@@ -15,6 +15,7 @@ import Modal from './components/custom-model-pop/modal';
 import GitHubProfileFinder from './components/github-profile-finder';
 import SearchAutoComplete from './components/search-autoComplete';
 import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section';
+import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom';
 function App() {
   return (
     <div className="App">
@@ -29,7 +30,8 @@ function App() {
     {/* <ModalTest/> */}
     {/* <GitHubProfileFinder/> */}
    {/* <SearchAutoComplete/> */}
-   <ScrollToSection/>
+   {/* <ScrollToSection/> */}
+   <ScrollToTopAndBottom/>
     </div>
   );
 }
