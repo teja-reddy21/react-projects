@@ -16,6 +16,8 @@ import GitHubProfileFinder from './components/github-profile-finder';
 import SearchAutoComplete from './components/search-autoComplete';
 import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section';
 import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom';
+import Resize from './components/use-window-resize/Resize';
+import Madu from './components';
 function App() {
   return (
     <div className="App">
@@ -31,7 +33,9 @@ function App() {
     {/* <GitHubProfileFinder/> */}
    {/* <SearchAutoComplete/> */}
    {/* <ScrollToSection/> */}
-   <ScrollToTopAndBottom/>
+   {/* <ScrollToTopAndBottom/> */}
+   {/* <Resize/> */}
+   <Madu/>
     </div>
   );
 }
