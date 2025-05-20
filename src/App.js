@@ -17,7 +17,8 @@ import SearchAutoComplete from './components/search-autoComplete';
 import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section';
 import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom';
 import Resize from './components/use-window-resize/Resize';
-import Madu from './components';
+import UseOnclickOutsideTest from './components/use-outside-click/test';
+
 function App() {
   return (
     <div className="App">
@@ -35,7 +36,7 @@ function App() {
    {/* <ScrollToSection/> */}
    {/* <ScrollToTopAndBottom/> */}
    {/* <Resize/> */}
-   <Madu/>
+  <UseOnclickOutsideTest/>
     </div>
   );
 }
